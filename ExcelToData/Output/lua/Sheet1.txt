@@ -1,0 +1,43 @@
+local Sheet1 = {
+    [1] = {
+        IntValue = 1,
+        RefValue = 1,
+        LongValue = 1,
+        FloatValue = 1,
+        BoolValue = true,
+        StringValue = [[test]],
+        StringtValue = [[est]],
+        ResValue = [[set]],
+        LuaValue = [[lua]],
+        ArrayValue = {
+            1,
+            2,
+            3,
+        },
+        DicValue = {
+            [1] = 1,
+            [2] = 2,
+        },
+    },
+    [2] = {
+        IntValue = 2,
+        RefValue = 2,
+        LongValue = 2,
+        FloatValue = 2,
+        BoolValue = true,
+        StringValue = [[test]],
+        StringtValue = [[est]],
+        ResValue = [[set]],
+        LuaValue = [[lua]],
+        ArrayValue = {
+            1,
+            2,
+            3,
+        },
+        DicValue = {
+            [1] = 1,
+            [2] = 2,
+        },
+    },
+}
+return Sheet1
